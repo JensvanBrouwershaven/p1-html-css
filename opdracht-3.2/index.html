@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KAAS</title>
+  </head>
+  <body>
+    <form action="antwoord_accept.php">
+      Voornaam:<input
+        type="text"
+        name="vnaam"
+        pattern="[A-Za-z\s]{0,50}"
+        required
+        title="Pleace Enter Alphabet Characters Only"
+      /><br />
+
+      Achternaam:<input
+        type="text"
+        name="anaam"
+        pattern="[A-Za-z\s]{0,50}"
+        required
+        title="Pleace Enter Alphabet Characters Only"
+      /><br />
+
+      Uw afbeelding:<input type="file" name="afb" id="afb" />
+      <input type="submit" value="verzend" /><br />
+
+      <input type="radio" name="gender" value="male" /> Male
+      <input type="radio" name="gender" value="female" /> Female
+      <br />
+      Straat met huisnummer:<input
+        type="text"
+        name="straenhuis"
+        br
+        type="text"
+        name="vnaam"
+      /><br />
+      Postcode:<input type="text" name="post" /><br />
+      Stad:<input type="text" name="stad" /><br />
+      Land
+      <br />
+      <input type="radio" name="Land" value="spanje" /> spanje
+      <input type="radio" name="Land" value="zweden" /> zweden
+      <input type="radio" name="Land" value="hongarije" /> hongarije
+      <input type="radio" name="Land" value="italie" /> italie
+      <br />
+      
+      BSN-Nummer:<input type="text" name="vnaam" maxlength="9" /><br />
+      <label for="start">Datum Aankomst:</label>
+
+      <input type="date" id="start" name="trip-start"
+             value="2018-07-22"
+             min="2022-09-13" max="2023-12-31">
+      <br />
+      <label for="start">Datum Vertrek:</label>
+
+      <input type="date" id="start" name="trip-start"
+             value="2018-07-22"
+             min="2022-09-14" max="2023-12-31">
+      <br />
+      <div class="container">
+        <label for="uname"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="Email" required />
+
+        <label for="psw"><b>Password</b></label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+          required
+        />
+
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember" /> Remember
+          me
+        </label>
+      </div>
+
+      <br />
+      <input type="submit" value="Boek Nu" />
+    </form>
+  </body>
+</html>
