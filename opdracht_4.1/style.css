@@ -1,0 +1,26 @@
+h1 {
+  color: blue;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+}
+H2 {
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+}
+h3 {
+  color: teal;
+  font-size: 16px;
+  font-weight: bold;
+}
+p {
+  color: #4d4d4d;
+}
+.container p {
+  font-weight: bold;
+}
+a:link {
+  color: #8a2be2;
+  text-decoration: none;
+}
