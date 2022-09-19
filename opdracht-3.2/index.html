@@ -14,52 +14,54 @@
         pattern="[A-Za-z\s]{0,50}"
         required
         title="Pleace Enter Alphabet Characters Only"
-      /><br />
+      />
 
       Achternaam:<input
         type="text"
         name="anaam"
         pattern="[A-Za-z\s]{0,50}"
         required
-        title="Pleace Enter Alphabet Characters Only"
-      /><br />
+        title="Alleen alphabetische letters alstublieft"
+      />
 
       Uw afbeelding:<input type="file" name="afb" id="afb" />
-      <input type="submit" value="verzend" /><br />
+      <input type="submit" value="verzend" />
 
       <input type="radio" name="gender" value="male" /> Male
       <input type="radio" name="gender" value="female" /> Female
-      <br />
+      
       Straat met huisnummer:<input
         type="text"
         name="straenhuis"
         br
         type="text"
         name="vnaam"
-      /><br />
-      Postcode:<input type="text" name="post" /><br />
-      Stad:<input type="text" name="stad" /><br />
+      />
+      Postcode:<input type="text" name="post" />
+      Stad:<input type="text" name="stad" />
       Land
-      <br />
-      <input type="radio" name="Land" value="spanje" /> spanje
-      <input type="radio" name="Land" value="zweden" /> zweden
-      <input type="radio" name="Land" value="hongarije" /> hongarije
-      <input type="radio" name="Land" value="italie" /> italie
-      <br />
+     
+      <select name="land" id="land">
+        <option value="Kies Een Land">Kies Een Land</option>
+        <option value="Spanja">Spanje</option>
+        <option value="Hongarije">Hongarije</option>
+        <option value="Italie">Italie</option>
+        <option value="America">America</option>
       
-      BSN-Nummer:<input type="text" name="vnaam" maxlength="9" /><br />
+      
+      BSN-Nummer:<input type="text" name="vnaam" maxlength="9" />
       <label for="start">Datum Aankomst:</label>
 
       <input type="date" id="start" name="trip-start"
              value="2018-07-22"
              min="2022-09-13" max="2023-12-31">
-      <br />
+     
       <label for="start">Datum Vertrek:</label>
 
       <input type="date" id="start" name="trip-start"
              value="2018-07-22"
              min="2022-09-14" max="2023-12-31">
-      <br />
+      
       <div class="container">
         <label for="uname"><b>Email</b></label>
         <input type="text" placeholder="Enter Email" name="Email" required />
@@ -79,7 +81,7 @@
         </label>
       </div>
 
-      <br />
+      
       <input type="submit" value="Boek Nu" />
     </form>
   </body>
