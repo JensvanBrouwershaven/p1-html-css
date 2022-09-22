@@ -29,7 +29,7 @@ nav {
   justify-content: space-between;
   position: fixed;
   z-index: 250;
-  margin-top: -38vh;
+  margin-top: -39vh;
 }
 nav ul {
   display: flex;
