@@ -8,6 +8,13 @@ html {
 }
 body {
   font-family: "Goldman", cursive;
+  background-image: url(1080phacker.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 99vw;
+  height: 99vh;
+  z-index: -50;
 }
 
 nav {
@@ -20,6 +27,9 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: fixed;
+  z-index: 250;
+  margin-top: -38vh;
 }
 nav ul {
   display: flex;
@@ -43,97 +53,109 @@ body {
 }
 
 #container {
-  height: 400px;
-  width: 640px;
+  height: 25rem;
+  width: 40rem;
   position: relative;
 }
 
 #image {
-  position:absolute;
-  left: 130px;
-  top: 0*;
-  height: 750px;
-  width:1518px;
-  margin-left:-130px;
-
+  position: center;
+  left: 130rem;
+  top: -5rem;
+  height: 120rem;
+  width: 200rem;
+  margin-left: -1rem;
+  z-index: -5;
 }
-#text {
-  z-index: 200;
-  position: absolute;
+#head1 {
+  position: center;
   color: white;
-  font-size: 63px;
-  font-weight: bold;
-  left: 600px;
-  top: 550px;
+  font-size: 7rem;
+  margin-left: 1vw;
+  margin-top: 38vh;
 }
 
 h2 {
   color: white;
-  font-size: 400%;
-  margin-top: 25%;
+  font-size: 6rem;
+  margin-top: 90vh;
 }
-
+#htmlh2 {
+  margin-top: 70rem;
+  margin-left: 40vw;
+}
 p {
   color: white;
   text-align: right;
-  font-size: 150%;
-  margin-top: -20%;
+  font-size: 150213132123vh;
+  margin-top: -20vh;
 }
-#text2{
-    margin-right: 40px;
-    font-size:large;
-}
-#javaimg{
-  margin-top: 100px;
-  margin-left: 1100px;
-  height: 360px;
-}
-#javatxt{
+#text2 {
   z-index: 200;
   position: absolute;
   color: white;
-  font-size: 20px;
+  font-size: 3rem;
   font-weight: bold;
-  margin-top:-15%;
-  margin-left:10px;
+  margin-top: -29vh;
+  margin-left: 42vw;
 }
-#h2java{
-  margin-top:200px;
+#javaimg {
+  margin-top: 15rem;
+  margin-left: 140rem;
+  height: 360px;
 }
-#phph2{
-margin-top:100px;
+#javatxt {
+  z-index: 200;
+  position: absolute;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: -29vh;
+  margin-left: 4rem;
+}
+#h2java {
+  margin-top: 30rem;
+  margin-left: 40vw;
+}
+#phph2 {
+  margin-top: 30rem;
+  margin-left: 45vw;
+}
+#PHPimg {
+  height: 60rem;
+}
+#phptxt {
+  z-index: 200;
+  margin-right: 4rem;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: -40rem;
+}
+#mysqlh2 {
+  margin-top: 30rem;
+  margin-left: 43vw;
+}
+#sqlimg {
+  z-index: 200;
+  margin-left: 140rem;
+  margin-top: 20rem;
+  height: 40vh;
+  width: 20vw;
+}
+#sqltxt {
+  z-index: 200;
+  position: absolute;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: -29vh;
+  margin-left: 4rem;
 }
 #footer {
   width: 100%;
-  height:20px;
-  background-color:#00a8c7;
+  height: 20px;
+  background-color: #00a8c7;
   color: white;
   text-align: center;
-}
-#PHPimg{
-height: 500px;
-}
-#phptxt{
-  z-index: 200;
- margin-right:20px;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  margin-top:-120;
-}
-#sqlimg{
-  z-index:200;
-  margin-left:1000px;
-  margin-top:200px;
-  height:80%;
-  width:25%;
-}
-#sqltxt{
-  z-index: 200;
-  position: absolute;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  margin-top:-15%;
-  margin-left:10px;
 }
