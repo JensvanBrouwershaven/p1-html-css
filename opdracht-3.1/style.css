@@ -153,9 +153,10 @@ p {
   margin-left: 4rem;
 }
 #footer {
-  width: 100%;
-  height: 20px;
+  width: 100vw;
+  height: 10vh;
   background-color: #00a8c7;
   color: white;
   text-align: center;
+  font-size: 200%;
 }
