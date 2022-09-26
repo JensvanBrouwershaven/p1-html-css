@@ -9,12 +9,12 @@ body {
   background-color: white;
   font-family: "Poppins", sans-serif;
 }
-.hdrtxt{
-    border: 3rem solid rgb(123, 206, 0);
-    background-color: rgb(123, 206, 0);
-    text-align: center;
-    margin-left: -25rem;
-    color:white;
+.hdrtxt {
+  border: 3rem solid rgb(123, 206, 0);
+  background-color: rgb(123, 206, 0);
+  text-align: center;
+  margin-left: -25rem;
+  color: white;
 }
 nav {
   height: 100vh;
@@ -27,7 +27,7 @@ nav {
   position: sticky;
   padding-left: 1rem;
   flex-wrap: wrap;
-  background-color:rgb(123, 206, 0);
+  background-color: rgb(123, 206, 0);
 }
 a {
   position: relative;
@@ -59,14 +59,14 @@ li {
   padding: 0.5rem;
 }
 
-h1{
+h1 {
   position: top;
   padding-left: 35rem;
 }
-.tcrimg{
-    z-index: 12;
-    margin:0.3rem -1rem;
-    position:absolute;
-    height:22vh;
-    width:22vw;
+.tcrimg {
+  z-index: 12;
+  margin: 0.3rem -1rem;
+  position: absolute;
+  height: 22vh;
+  width: 22vw;
 }
