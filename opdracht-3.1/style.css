@@ -192,7 +192,7 @@ p {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #E9E9E9;
+  background-color: white;
   min-width: 16rem;
   box-shadow: 0rem 0.8rem 1.6rem 0rem rgba(0,0,0,0.2);
   z-index: 1;
@@ -209,9 +209,12 @@ p {
 }
 
 .dropdown-content a:hover {
-  background-color: #00a8c7;
+  background-color: #E9E9E9;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+#drptxt{
+  color: #02c5e7;
 }
