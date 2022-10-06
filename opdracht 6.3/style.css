@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  nav{
+    justify-content:space-evenly;
+    display:flex;
+  }
+  ul{
+   display:flex;  
+}
+li{
+    margin:0 1rem;
+    list-style-type: none;
+}
