@@ -1,0 +1,53 @@
+.square1 {
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+}
+.square2 {
+  height: 150px;
+  width: 150px;
+  background-color: #555;
+}
+.square3 {
+  height: 150px;
+  width: 150px;
+  background-color: red;
+}
+.square4 {
+  height: 150px;
+  width: 150px;
+  background-color: green;
+}
+.all-square {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+
+.square5 {
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+}
+.square6 {
+  height: 150px;
+  width: 150px;
+  background-color: #555;
+}
+.square7 {
+  height: 150px;
+  width: 150px;
+  background-color: red;
+}
+.square8 {
+  height: 150px;
+  width: 150px;
+  background-color: green;
+}
+.all-square2 {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
+  margin: 3rem 0 0 0;
+  flex-direction: row-reverse;
+}
