@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav{
+    color: #fff;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li{
+    height: 40px;
+    line-height: 40px;
+}
+nav ul li ul li{
+    display: none;
+}
+nav> ul >li:hover ul li{
+    display: block;
+}
+nav ul  li{
+    flex-basis: 20%;
+}
