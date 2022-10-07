@@ -170,7 +170,7 @@ p {
 }
 
 .dropdown {
-  float: left;
+  -ms-flex-align: start;
   overflow: hidden;
 }
 
@@ -179,7 +179,7 @@ p {
   border: none;
   outline: none;
   color: white;
-  padding: 1.4rem 1.6rem;
+  justify-content: space-around;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -200,9 +200,10 @@ p {
 }
 
 .dropdown-content a {
-  float: none;
+  display:flex;
+  margin: 1rem;
   color:white;
-  padding: 1.2rem 1.6rem;
+  justify-content:space-between;
   text-decoration: none;
   display: block;
   text-align: left;
