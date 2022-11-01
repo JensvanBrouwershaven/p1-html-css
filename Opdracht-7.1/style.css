@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding:0
+}
+.cheesecube{
+    position: absolute; 
+    height:0%
+}
+.headerer {
+    color: white;
+    background-color: rgb(255, 0, 0);
+    width: 100vw;
+    height: 10vh;
+}
+
+.title_1 {
+    background-color: yellow;
+    width: 100vw;
+    height: 30vh;
+}
+.title_2 {
+    background-color: orange;
+    width: 100vw;
+    height: 30vh;
+}
+
+.title_3 {
+    background-color: greenyellow;
+    width: 100vw;
+    height: 30vh;
+}
+@media only screen and (max-width: 768px){
+    p{
+        color: white;
+    }
+    h2{
+        color: white;
+        font-size:90%;
+    }
+    .wasdwasd{
+        margin-left:50%;
+    }
+    .headerer {
+      background-color: pink;
+    }
+    .title_1 {
+      background-color: crimson;
+    }
+    .title_2 {
+      background-color: rgb(111, 0, 255);
+    }
+    .title_3 {
+      background-color: blue;
+    }
+    .headerer{
+        font-size: 0.7rem;
+    }
+  }
+@media only screen and (max-width: 576px) {
+    .wasdwasd{
+        position: absolute;
+        margin:4%;
+    }
+    p{
+        color: white;
+        margin: 10% 0 0 3%;
+        padding: 3%;
+    }
+    .headerer {
+      background-color: rgb(115, 115, 252);
+      
+    }
+    #titel2{
+    margin-left: 45%;
+    }
+    .titel3{
+      margin-left: 45%;
+      }
+    .title_1 {
+      background-color: rgb(139, 234, 234);
+    }
+    .title_2 {
+      background-color: rgb(235, 124, 235);
+    }
+    .title_3 {
+      background-color: navy;
+    }
+    .cheesecube{
+      height: 5%;
+      margin: 4% 0 0 90%;
+    }
+
+  }
+
