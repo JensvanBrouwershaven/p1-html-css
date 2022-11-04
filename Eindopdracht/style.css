@@ -1,0 +1,259 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  color: white;
+}
+h2 {
+  color: white;
+}
+.header {
+  background-color: #131c27;
+  text-align: left;
+  color: white;
+  position: absolute;
+  width: 99.453121821vw;
+  height: 6rem;
+  margin: -0.5rem 0 0 -1rem;
+}
+.location {
+  font-size: large;
+}
+.flex-container {
+  display: flex;
+  margin: -2.5rem 0 0 63%;
+  padding-bottom: 2rem;
+}
+.flex-container > div {
+  margin: 0 0 0 6vw;
+  justify-content: center;
+  align-content: flex-end;
+}
+.travel {
+  font-size: 1.7rem;
+  font-weight: 100;
+  margin-left: 5rem;
+  font-family: "Pattaya", sans-serif;
+}
+.landingpic {
+  width: 99.453121821vw;
+  height: 100vh;
+  margin: 0 0 0 -1rem;
+}
+.TBL {
+  font-size: 3rem;
+  font-weight: bold;
+  z-index: 12;
+  margin: -33rem 0 0 33.7vw;
+}
+.contacttxt {
+  z-index: 120;
+  font-weight: 150;
+  font-size: 1.5rem;
+  margin: 1rem 0 0 42.7vw;
+}
+.starttxt {
+  z-index: 120;
+  font-weight: 150;
+  font-size: 1.5rem;
+  margin: 4rem 0 0 32vw;
+}
+.button1 {
+  z-index: 142;
+  background-color: #4c6e97;
+  padding: 0.3rem 3rem;
+  border: none;
+  margin: 3rem 0 0 45vw;
+}
+.buttonp {
+  background-color: #4c6e97;
+}
+.nypic {
+  width: 99.453121821vw;
+  height: 105vh;
+  margin: 29vh 0 0 -1rem;
+}
+.nytxt1 {
+  font-size: 3rem;
+  font-weight: 600;
+  z-index: 12;
+  margin: -33rem 0 0 1vw;
+}
+.underline {
+  border-bottom: 0.3rem solid currentColor;
+  padding: 0.4rem;
+}
+.nytxt2 {
+  z-index: 120;
+  font-weight: 150;
+  font-size: 2rem;
+  margin: 3rem 0 0 1vw;
+}
+.square1 {
+  height: 20rem;
+  width: 99.393121821vw;
+  background-color: #131c27;
+  margin: 44.1vh 0 0 -1vw;
+}
+.sectionprp {
+  height: 45vh;
+}
+
+.h23 {
+  height: 34vh;
+  width: 98vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: -21rem 0 0;
+}
+
+.h23 h2 {
+  font-size: 3rem;
+  margin-bottom: 2vh;
+}
+
+.h23 p {
+  font-size: 2rem;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 2.5px 5px 12px rgb(192, 192, 193);
+  width: 21vw;
+  height: 52.5vh;
+  margin: 3vw;
+  margin-top: 8vh;
+}
+
+.card-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #131c27;
+  height: 10vh;
+  margin-bottom: 4vh;
+}
+
+.icon {
+  width: 2.8vw;
+  height: 2.8vh;
+}
+
+.card h2 {
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+}
+
+.card p {
+  color: black;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  margin-top: 10vh;
+}
+.pic3 {
+  width: 99.557121821vw;
+  height: 74vh;
+  margin: 29vh 0 0 -0.1rem;
+}
+
+section {
+  background-color: #9999;
+  width: 99.4vw;
+  margin: 0 0 0 -1rem;
+}
+.boxitself {
+  background-color: #131c27;
+  opacity: 80%;
+  height: 30rem;
+  width: 45rem;
+  z-index: 43098;
+  margin: -40rem 0 0 26.5%;
+  border-radius: 1rem;
+}
+.boxitself p {
+  font-size: 3rem;
+  font-weight: bold;
+  z-index: 12;
+  margin: 0 0 0 13vw;
+  padding: 3rem;
+}
+.email1 {
+  margin: -20rem 0 0 48vw;
+  position: absolute;
+  height: 2.5rem;
+  width: 16rem;
+  border-radius: 0.1rem;
+  text-decoration: none;
+}
+.name1 {
+  position: absolute;
+  margin: -39.5vh 0 0 40vw;
+  font-size: x-large;
+}
+.name2 {
+  position: absolute;
+  margin: -25vh 0 0 40vw;
+  font-size: x-large;
+}
+.email2 {
+  margin: -13rem 0 0 48vw;
+  position: absolute;
+  height: 2.5rem;
+  width: 16rem;
+  border-radius: 0.1rem;
+  text-decoration: none;
+}
+.button3 {
+  position: absolute;
+  background-color: #4c6e97;
+  width: 45rem;
+  height: 3rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-color: #4c6e97;
+  border-bottom: #4c6e97;
+  border-right-color: #4c6e97;
+  margin: -3rem 0 0 26.2%;
+}
+.button3 p {
+  font-size: 1.1rem;
+  position: absolute;
+  margin: -0.7rem 0 0 47%;
+}
+.footer1 {
+  height: 4rem;
+  width: 99.4vw;
+  background-color: #131c27;
+  position: absolute;
+  margin: 9rem 0 0 -1vw;
+}
+footer p {
+  margin: 2.3vh 0 0 2rem;
+  font-weight: bold light;
+  font-size: 1.3rem;
+}
+.flexboxf {
+  height: 2rem;
+  width: 100vw;
+  margin: -2rem 0 0 -1rem;
+  background: none;
+}
+.flexdiv {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem 0 0 50vw;
+}
+.picca1 {
+  padding-right: 20rem;
+}
